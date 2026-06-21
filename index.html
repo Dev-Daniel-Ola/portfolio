@@ -10,26 +10,55 @@
 </head>
 <body>
 
-    <div>
+    <div class="bg-gray-100 min-h-screen">
         <header>
-            <div class="flex border-b border-gray-100 shadow-sm">
-                <div class="flex items-center gap-2 px-8 py-5 w-1/2">
+            <div class="flex border-b border-b-gray-200 shadow-sm">
+                <div class="flex items-center gap-2 px-20 py-5 w-1/2">
                     <i class="bi bi-flower1 text-xl text-purple-900"></i>
                     <h1 class="text-xl font-bold">Daniel Ola</h1>
                 </div>
 
                 <div class="px-8 py-5 w-1/2">
-                    <nav class="flex justify-evenly text-sm">
+                    <nav class="flex justify-evenly text-sm font-medium">
                         <a href="" class="text-purple-900 font-bold border-b-2">Home</a>
-                        <a href="">About</a>
-                        <a href="">Skills</a>
-                        <a href="">Projects</a>
-                        <a href="">Experience</a>
-                        <a href="">Contact</a>
+                        <a href="" class="hover:text-purple-900 hover:font-bold hover:border-b-2">About</a>
+                        <a href="" class="hover:text-purple-900 hover:font-bold hover:border-b-2">Skills</a>
+                        <a href="" class="hover:text-purple-900 hover:font-bold hover:border-b-2">Projects</a>
+                        <a href="" class="hover:text-purple-900 hover:font-bold hover:border-b-2">Experience</a>
+                        <a href="" class="hover:text-purple-900 hover:font-bold hover:border-b-2">Contact</a>
                     </nav>
                 </div>
             </div>
         </header>
+
+        <div class=" flex px-20 py-10">
+            <div class="relative">
+                <div class="absolute -left-4 -top-4  flex border-2 border-gray-200 rounded-xl w-52 items-center py-0 px-4 gap-4 text-sm bg-white">
+                    <i class="bi bi-circle-fill font-bold text-sm text-green-600"></i>
+                    <p>Available for Freelance</p>
+                </div>
+
+                <img src="./img/Daniel.png" alt="" class="w-lg rounded-sm">
+            </div>
+
+            <div class="py-36 px-16">
+                <h2 class="font-bold text-3xl pb-4">Daniel Ola</h2>
+                <h5 class="font-medium text-gray-700 text-lg pb-4">Software Developer</h5>
+                <p class="max-w-xl w-full leading-7 justify-text text-gray-800 pb-4">Developing user-centred applications using Java and modern web technologies, including HTML, CSS, Bootstrap, and Tailwind CSS, with practical experience in automation systems such as AutoOrders Hub. Continuously strengthening expertise in full-stack development principles.</p>
+
+                <div class="flex gap-10 pb-10">
+                    <a href="" class="border-0 rounded-sm px-5 py-3 bg-purple-900 text-white text-lg">View Projects</a>
+                    <a href=""class="border-0 rounded-sm px-5 py-3 bg-purple-900 text-white text-lg">Conatct Me</a>
+                </div>
+
+                <div class="flex flex-row gap-4">
+                    <a href=""><i class="bi bi-github"></i></a>
+                    <a href=""><i class="bi bi-link"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-envelope-at"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
